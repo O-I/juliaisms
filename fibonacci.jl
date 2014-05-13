@@ -1,6 +1,6 @@
 # Recursive implementation
 
-fib(n::Int) = n < 2 ? 1 : fib(n - 2) + fib(n - 1)
+fib(n::Int) = n < 3 ? 1 : fib(n - 2) + fib(n - 1)
 
 # Iterative implementation
 

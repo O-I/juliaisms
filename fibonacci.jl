@@ -11,3 +11,9 @@ function ifib(n)
   end
   return k
 end
+
+# Matrix implementation
+
+function mfib(n)
+  return (((BigInt [1 1 ; 1 0])^n)[2])
+end
